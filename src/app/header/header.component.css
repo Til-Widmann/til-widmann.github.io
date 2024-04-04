@@ -1,0 +1,57 @@
+.full-bar {
+  background-color: antiquewhite;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+  border-bottom-style: groove;
+  justify-content: space-between;
+}
+.brand-logo {
+  max-height: 80%;
+  padding-left: 7.5px;
+}
+
+.navigation {
+  height: 100%;
+  display: flex; /* Enables flexbox layout */
+  flex-direction: row; /* Stacks elements vertically */
+  justify-content: flex-end; /* Distributes equal space between buttons */
+  align-items: center; /* Centers buttons horizontally */
+  width: 500px; /* Optional: Set the width of the container */
+}
+
+.navigation button {
+  background-color: antiquewhite;
+  height: 100%;
+  width: 25vh;
+  border-top-style: none;
+  border-bottom-style: none;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #4f4f4f;
+  /* Add styles for your buttons here (e.g., background-color, padding) */
+}
+.navigation button:hover {
+  transition: background-color 0.5s ease, color 0.3s ease;
+  background-color: #fad9b5; /* Lighter background color on hover */
+  color: #000000; /* Text color becomes bolder on hover */
+}
+
+.vl-right {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-left-style: none;
+}
+
+.vl-left {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.no-border {
+  border-inline-style: none;
+}
+
